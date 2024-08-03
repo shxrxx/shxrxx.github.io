@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Contact</title>
 </head>
 
@@ -44,6 +44,54 @@
                 <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.0831535998773!2d-75.66581612329931!3d45.40766273720855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce058f94b0908f%3A0x2ab414063b41c13d!2s1591%20Lyc%C3%A9e%20Place%2C%20Ottawa%2C%20ON%20K1G%204A7!5e0!3m2!1sen!2sca!4v1718418143816!5m2!1sen!2sca"
                     allowfullscreen=""></iframe>
+            </div>
+            <div>
+                <h1>For Additional Information/Support</h1>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        <br><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        <br><br>
+
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob">
+                        <br><br>
+
+                        <label for="gender">Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                        <br><br>
+
+                        <label for="newsletter">Subscribe to newsletter:</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <br><br>
+
+                        <label for="query">Query Type:</label>
+                        <select id="query" name="query">
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Support</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                        <br><br>
+
+                        <label for="comments">Additional Comments:</label>
+                        <textarea id="comments" name="comments" rows="4" cols="50"
+                            placeholder="Enter your comments"></textarea>
+                        <br><br>
+
+                        <button type="submit">Submit Request</button>
+                        <button type="reset">Reset Form</button>
+                    </fieldset>
+                </form>
             </div>
         </main>
 
