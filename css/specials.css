@@ -108,3 +108,93 @@ footer p a {
     text-decoration: none;
 
 }
+
+/* Responsive Styles */
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+
+    header,
+    nav {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 2em;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    main {
+        font-size: 1em;
+        padding: 5%;
+    }
+
+    .action {
+        font-size: 1.25em;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 992px) {
+    header {
+        width: 30%;
+    }
+
+    nav {
+        width: 65%;
+        margin: 3em 2em 0 0;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    main {
+        font-size: 1.15em;
+        padding: 3%;
+    }
+
+    .action {
+        font-size: 1.3em;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 993px) {
+    header {
+        width: 25%;
+    }
+
+    nav {
+        width: 70%;
+        margin: 5em 3em 0 0;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    main {
+        font-size: 1.25em;
+        padding: 2%;
+    }
+
+    .action {
+        font-size: 1.35em;
+    }
+}
