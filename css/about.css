@@ -23,14 +23,6 @@ body {
     background-color: #000;
 }
 
-#container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 img {
     max-width: 100%;
     display: block;
@@ -77,15 +69,37 @@ main {
     font-size: 1.25em;
 }
 
-.company-description,
-.our-story,
-.reasons-to-shop {
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.media-section {
+    margin-bottom: 30px;
+}
+
+.media-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+audio,
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+audio {
     margin-bottom: 20px;
 }
 
-.reasons-to-shop ol {
-    padding-left: 20px;
+video {
+    margin-bottom: 20px;
 }
+
 
 
 /* Style rules for footer content */
@@ -100,30 +114,4 @@ footer p a {
     color: #fff;
     text-decoration: none;
 
-}
-
-/* Mobile view */
-@media (max-width: 600px) {
-    main {
-        padding: 10px;
-    }
-}
-
-/* Tablet view */
-@media (min-width: 601px) and (max-width: 1024px) {
-    #container {
-        width: 80%;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
-
-/* Desktop view */
-@media (min-width: 1025px) {
-    #container {
-        width: 100%;
-    }
 }
