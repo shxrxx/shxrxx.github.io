@@ -153,6 +153,22 @@ tbody tr:hover {
     .action {
         font-size: 1.25em;
     }
+
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+
 }
 
 /* Media Query for Tablet Viewport */
